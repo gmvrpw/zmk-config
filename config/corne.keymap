@@ -31,10 +31,10 @@
             //                    | GUI | LWR | ALT/ENT |   | HYPER/SPC | BKSP  | RSE |
 
             bindings = <
-&kp TAB         &kp Q  &kp W  &kp E             &kp R  &kp T        &kp Y      &kp U         &kp I         &kp O    &kp P     &kp BACKSPACE
-&kp LEFT_SHIFT  &kp A  &kp S  &kp D             &kp F  &kp G        &kp H      &kp J         &kp K         &kp L    &kp SEMI  &kp RIGHT_SHIFT
-&mo 2           &kp Z  &kp X  &kp C             &kp V  &kp B        &kp N      &kp M         &kp COMMA     &kp DOT  &kp FSLH  &kp ENTER
-                              &kp LEFT_CONTROL  &mo 1  &kp SPACE    &kp SPACE  &kp LEFT_WIN  &kp LEFT_ALT
+&kp ESCAPE          &kp Q  &kp W  &kp E             &kp R  &kp T        &kp Y      &kp U         &kp I         &kp O    &kp P     &kp BACKSPACE
+&tp LEFT_SHIFT TAB  &kp A  &kp S  &kp D             &kp F  &kp G        &kp H      &kp J         &kp K         &kp L    &kp SEMI  &tp RIGHT_SHIFT ENTER
+&mo 2               &kp Z  &kp X  &kp C             &kp V  &kp B        &kp N      &kp M         &kp COMMA     &kp DOT  &kp FSLH  &none
+                                  &kp LEFT_CONTROL  &mo 1  &kp SPACE    &kp SPACE  &kp LEFT_WIN  &kp LEFT_ALT
             >;
         };
 
@@ -61,10 +61,10 @@
             //                    |     |     |    |                  |     |     |     |
 
             bindings = <
-&kp ESCAPE  &kp F1   &kp F2   &kp F3  &kp F4  &kp F5     &trans    &trans    &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp DEL
-&trans      &kp F6   &kp F7   &kp F8  &kp F9  &kp F10    &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT         &kp SQT            &kp BACKSLASH
-&trans      &kp F11  &kp F12  &trans  &trans  &trans     &trans    &trans    &trans  &trans            &trans             &trans
-                              &trans  &trans  &trans     &trans    &trans    &trans
+&trans  &kp F1   &kp F2   &kp F3  &kp F4  &kp F5     &trans    &trans    &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp DEL
+&trans  &kp F6   &kp F7   &kp F8  &kp F9  &kp F10    &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT         &kp SQT            &kp BACKSLASH
+&trans  &kp F11  &kp F12  &trans  &trans  &trans     &trans    &trans    &trans  &trans            &trans             &trans
+                          &trans  &trans  &trans     &trans    &trans    &trans
             >;
         };
     };
