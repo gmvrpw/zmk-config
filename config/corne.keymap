@@ -46,9 +46,9 @@
             //                     | GUI |     | ALT/ENT |   | HYPER/SPACE | BKSP |    |
 
             bindings = <
-&kp TILDE  &kp EXCL              &kp AT                 &kp HASH          &kp DLLR           &kp F5            &kp CARET     &kp AMPERSAND  &trans        &trans        &kp PIPE   &kp DELETE
-&kp GRAVE  &kp N1                &kp N2                 &kp N3            &kp N4             &kp N5            &kp NUMBER_6  &kp N7         &kp NUMBER_8  &kp N9        &kp N0     &kp SQT
-&trans     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp UNDERSCORE    &kp MINUS     &kp PLUS       &kp PERCENT   &kp ASTERISK  &kp EQUAL  &trans
+&kp TILDE  &kp EXCL              &kp AT                 &kp HASH          &kp DLLR           &kp F5            &kp CARET     &kp AMPERSAND  &trans        &trans    &kp PIPE   &kp DELETE
+&kp GRAVE  &kp N1                &kp N2                 &kp N3            &kp N4             &kp N5            &kp NUMBER_6  &kp N7         &kp NUMBER_8  &kp N9    &kp N0     &kp SQT
+&trans     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp UNDERSCORE    &kp PERCENT   &kp MINUS      &kp ASTERISK  &kp PLUS  &kp EQUAL  &trans
                                                         &trans            &trans             &trans            &trans        &trans         &trans
             >;
         };
