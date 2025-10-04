@@ -46,9 +46,9 @@
             //                     | GUI |     | ALT/ENT |   | HYPER/SPACE | BKSP |    |
 
             bindings = <
-&kp TILDE  &kp EXCL        &kp AT  &kp HASH  &kp DLLR  &kp PERCENT    &kp CARET     &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
-&kp GRAVE  &kp N1          &kp N2  &kp N3    &kp N4    &kp N5         &kp NUMBER_6  &kp N7         &kp NUMBER_8  &kp N9                &kp N0                 &trans
-&trans     &kp UNDERSCORE  &trans  &trans    &trans    &trans         &trans        &trans         &trans        &kp MINUS             &kp EQUAL              &trans
+&kp TILDE  &kp EXCL        &kp AT  &kp HASH  &kp DLLR  &kp PERCENT    &kp CARET     &kp AMPERSAND  &kp ASTERISK  &trans     &trans     &trans
+&kp GRAVE  &kp N1          &kp N2  &kp N3    &kp N4    &kp N5         &kp NUMBER_6  &kp N7         &kp NUMBER_8  &kp N9     &kp N0     &trans
+&trans     &kp UNDERSCORE  &trans  &trans    &trans    &trans         &trans        &trans         &trans        &kp MINUS  &kp EQUAL  &trans
                                    &trans    &trans    &trans         &trans        &trans         &trans
             >;
         };
@@ -61,10 +61,10 @@
             //                    |     |     |    |                  |     |     |     |
 
             bindings = <
-&trans  &kp F1   &kp F2   &kp F3  &kp F4  &kp F5     &trans    &trans    &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp DEL
-&trans  &kp F6   &kp F7   &kp F8  &kp F9  &kp F10    &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT         &kp SQT            &kp BACKSLASH
-&trans  &kp F11  &kp F12  &trans  &trans  &trans     &trans    &trans    &trans  &trans            &trans             &trans
-                          &trans  &trans  &trans     &trans    &trans    &trans
+&trans  &kp F1   &kp F2   &kp F3  &kp F4  &kp F5     &trans    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp DEL
+&trans  &kp F6   &kp F7   &kp F8  &kp F9  &kp F10    &kp LEFT  &kp DOWN              &kp UP                 &kp RIGHT         &kp SQT            &kp BACKSLASH
+&trans  &kp F11  &kp F12  &trans  &trans  &trans     &trans    &trans                &trans                 &trans            &trans             &trans
+                          &trans  &trans  &trans     &trans    &trans                &trans
             >;
         };
     };
